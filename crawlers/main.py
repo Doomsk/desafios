@@ -17,6 +17,12 @@ def start(bot, update):
 
 
 def funcnumreadable(nums):
+    """
+    funcao para colocar o numero de upvotes em formato
+    human readable
+    :param nums: o numero a ser transformado
+    :return: o numero transformado
+    """
     dictnumabbr = {0 : '', 3 : 'k', 6 : 'M'}
     numtimes = 0
     while abs(nums) >= 1000:
