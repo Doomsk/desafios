@@ -1,0 +1,2 @@
+python-telegram-bot==6.1b2
+praw=4.5.1
